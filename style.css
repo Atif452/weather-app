@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid;
+    padding: 10px;
+    
+}
+
+input, button{
+    padding: 10px;
+    border: 1px solid green;
+}
+button{
+    border: 0;
+    background-color: green;
+    color: white;
+}
+.result div :nth-child(1){
+    background-color: aqua;
+    /* margin: 10px; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result div :nth-child(2){
+    background-color: rgb(201, 238, 238);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
